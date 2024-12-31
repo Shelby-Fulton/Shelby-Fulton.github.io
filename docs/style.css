@@ -1,12 +1,24 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure the content takes up all remaining space */
+.content {
+  flex: 1; /* Fills available vertical space */
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
   }
   
   header {
-    background: #333;
+    background: #3a3a3a;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -27,15 +39,12 @@ body {
   }
   
   footer {
-    text-align: center;
     background: #333;
-    color: #fff;
+    color: white;
+    text-align: center;
     padding: 1rem 0;
-  }
+}
   img {
-    /* width: 20%; */
-    /* border-radius: 50%; Makes the image round */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); Adds a shadow */
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -49,13 +58,8 @@ body {
   }
   .image-container {
     display: flex;
-    gap: 20px; /* Space between images */
-    /* justify-content: center; Center images horizontally/ */
+    gap: 20px;
   }
-/*   
-  .image-container img {
-    width: 150px; /* Adjust image size */
-    /* height: auto; Maintain aspect ratio */
-    /* border-radius: 10px; Optional: Rounded corners */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); Optional: Add shadow */
-  /* } */
+  a {
+    color: white; /* Change the color */
+}
